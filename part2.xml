@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cataleg SYSTEM "prueba2.dtd">
+<cataleg>
+    <llista_actors>
+        <actor id="I01">
+            <nom>Bryan Cranston</nom>
+            <edat>68</edat>
+        </actor>
+        <actor id="I02">
+            <nom>Aaron Paul</nom>
+            <edat>45</edat>
+        </actor>
+        <actor id="I03">
+            <nom>Jonathan Banks</nom>
+        </actor>
+    </llista_actors>
+    <llista_pelicules>
+        <pelicula id="P01">
+            <titol idioma="ENG">Breaking Bad</titol>
+            <director>Vince Gilligan</director>
+            <any>2008</any>
+            <actors>
+                <actor_ref ref="I01" />
+                <actor_ref ref="I02" />
+            </actors>
+        </pelicula>
+        <pelicula id="P02">
+            <titol idioma="ESP">Interstellar</titol>
+            <director>Christopher Nolar</director>
+            <any>2013</any>
+            <actors>
+                <actor_ref ref="I01" />
+                <actor_ref ref="I03" />
+            </actors>
+        </pelicula>
+        <pelicula id="P03">
+            <titol idioma="CAT">The Matrix</titol>
+            <director>Lana Wachowski</director>
+            <any>1999</any>
+            <actors>
+                <actor_ref ref="I01" />
+                <actor_ref ref="I02" />
+                <actor_ref ref="I03" />
+            </actors>
+        </pelicula>
+    </llista_pelicules>
+    <llista_recomanacions_pelicules>
+        <recomanacio ref="P02" />
+        <recomanacio ref="P01" />
+    </llista_recomanacions_pelicules>
+</cataleg>

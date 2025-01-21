@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE esdeveniments SYSTEM "part1.dtd">
+<esdeveniments>
+    <esdeveniment>
+        <grup>Oques Grasses</grup>
+        <lloc>El moll de la fusta</11oc>
+        <data>2017-09-12 22:30</data>
+        <entrada gratuita="si"/>
+    </esdeveniment>
+    <esdeveniment>
+        <grup> Zoo</grup>
+        <lloc>Sala Apolo</110c>
+        <data>2018-01-03 02:45</data>
+        <entrada gratuita="no">25</entrada>
+    </esdeveniment>
+    <esdeveniment>
+        <grup>Ixarango</ grup>
+        <lloc>El Poble Espanyol</110c>
+        <data>2018-06-24</data>
+        <entrada gratuita="no"> 17.5</entrada>
+    </esdeveniment>
+</esdeveniments>
